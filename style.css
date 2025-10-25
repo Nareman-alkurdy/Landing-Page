@@ -1,0 +1,402 @@
+.margintop{
+  margin-top: 60px;
+}
+
+html, body {
+  overflow-x: hidden !important;
+}
+
+/* navbar */
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}  
+.margintop{
+  margin-top: 60px;
+}
+.margintop2{
+margin-top: 120px;
+}
+
+/* navbar hover */
+.navitems:link, .navitems:visited{
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-bottom: 2px solid white;
+    transition: 1s ;
+}
+.navitems:hover{
+  border-bottom: 2px solid red;
+}  
+
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+/* Hero Section */
+.hero-title{
+     
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77.5px;
+  letter-spacing: 0px;
+  margin: 0; 
+    margin-top: -100px;
+  
+
+}
+.title{
+     
+  font-family: 'Poppins', sans-serif, initial;
+  font-weight:650 ;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0px;
+}
+
+.p-hero{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 5%;
+
+}
+
+.title{
+   font-family: inter;
+    font-weight: 800;
+     font-size: 48px;
+      line-height: 64px;
+    letter-spacing: 0%;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+
+.hero-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.5px;
+  color: #000;
+}
+
+.hero-paragraph {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.8px;
+  color: #333;
+}
+
+/* Fisrt section */
+.fchover{
+  color: rgba(214, 212, 212, 0.88);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-bottom: 2px solid rgba(214, 212, 212, 0.88);
+  transition: 1s ;
+}
+.fchover:hover{
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.fs64{
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 77.5px;
+}
+.fcbtn1 {
+  display: block;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #B00000;
+  box-shadow: 0px 0px 64px 0px rgba(176, 0, 0, 0.30);
+  border: 0px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  transition: 1s ;
+  border: 1px solid #B00000;
+}
+.fcbtn1:hover{
+  background: white;
+  border: 1px solid #B00000;
+  color: #B00000;
+
+}
+
+.fcbtn2 {
+  display: flex;
+  width: 160px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  transition: 1s ;
+
+}
+.fcbtn2:hover{
+  border: 1px solid #B00000;
+  background: #B00000;
+  color: white;
+}
+
+/*  Third Container */
+.icons{
+  margin-top: 4rem;
+  row-gap: 4rem;
+}
+
+.feature-box{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.feature-title{
+  margin-top: 1.75rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.feature-description{
+  color: #808080;
+  max-width: 200px;
+  font-size: 0.8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#iconSlider .carousel-control-prev,
+#iconSlider .carousel-control-next{
+  position: relative;
+  width: auto;
+}
+
+/* Fourth Container */
+
+.f4cfs50{
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.f4cfs25{
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+
+.tcfs20{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.tcfs14{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+/* Fourth Container */
+.f4cfs50{
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+}
+.f4cfs25{
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.f4chover{
+
+  border-bottom: 2px solid rgba(214, 212, 212, 0.88);
+  transition: 1s ;
+}
+.f4chover:hover{
+  color: red;
+  border-bottom: 2px solid red;
+}
+.f4cfs28{
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #B00000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #B00000;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.fifth6 {
+
+  background-image: url('assets/images/Quote\ Mark.png');
+  background-repeat: no-repeat;
+  background-position: top 30px left 130px;
+  background-size: 120px;
+  position: absolute;
+}
+
+/* Panr Section */
+.s7cfs64{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 100px;
+  letter-spacing: 0%;
+}
+
+.s7cfs62{
+  background-color: #B00000;
+}
+
+/* Footer */
+.footer{
+  background-color: #B00000;
+}
+
+.footer div {
+  word-wrap: break-word;
+}
+
+.row > .col {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/*  الجزء التالت من تحت  */
+.title2{
+  font-family: inter;
+  font-weight: 800;
+  font-size: 48px;
+  line-height:64px ;
+}
+
+.f4cbtn {
+  border-radius: 12px;
+  border: 2px solid #000;
+  background: #FFF;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  transition: 1s;
+}
+.f4cbtn:hover{
+  background-color: black;
+  color: white;
+}
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+      background-color: #b22222;
+      border-radius: 50%;
+      width: 40px;
+      color: #B00000;
+      height: 40px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+      z-index: 10;
+  }
+
+  
