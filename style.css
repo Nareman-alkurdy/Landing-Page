@@ -198,10 +198,19 @@ margin-top: 120px;
   margin-right: auto;
 }
 
-#iconSlider .carousel-control-prev,
-#iconSlider .carousel-control-next{
-  position: relative;
+#iconSlider .carousel-control-prev
+{
+  
   width: auto;
+   right: 0;
+  left: auto;
+  transform: translateX(50%);
+  
+}
+#iconSlider .carousel-control-next{
+   left: 0;
+  right: auto;
+  transform: translateX(-50%);
 }
 
 /* Fourth Container */
