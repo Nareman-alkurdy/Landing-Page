@@ -368,7 +368,7 @@ input:checked + .slider:before {
   padding-right: 1rem;
 }
 
-/*  الجزء التالت من تحت  */
+
 .title2{
   font-family: inter;
   font-weight: 800;
@@ -408,4 +408,117 @@ input:checked + .slider:before {
       z-index: 10;
   }
 
-  
+  @media (max-width: 767.98px) {
+  #iconSlider .carousel-item .row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  #iconSlider .carousel-item .feature-box {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+    padding: 1rem;
+  }
+
+
+  #iconSlider .carousel-item .row::-webkit-scrollbar {
+  display: none;
+}
+
+}
+
+ body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.navbar.dark-mode {
+  background-color: #1f1f1f;
+}
+
+.navitems.dark-mode {
+  color: #f0f0f0;
+}
+
+body.dark-mode,
+body.dark-mode .text-black,
+body.dark-mode .card-text,
+body.dark-mode .card-title,
+body.dark-mode .card-subtitle,
+body.dark-mode .f4cfs50,
+body.dark-mode .f4cfs25,
+body.dark-mode .fs-3,
+body.dark-mode .fs-4,
+body.dark-mode .fs-6,
+body.dark-mode h1,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode span {
+  color: #f0f0f0 !important;
+}
+
+body.dark-mode .card {
+  background-color: #1f1f1f !important;
+  border-color: #333 !important;
+}
+
+
+
+body.dark-mode .fcbtn2,
+body.dark-mode .fcbtn2 p {
+  color: #ffffff !important;
+}
+body.dark-mode .fcbtn2 {
+  background-color: #333 !important;
+  border-color: #444 !important;
+}
+
+
+body.dark-mode .bg-light {
+  background-color: #1f1f1f !important;
+}
+
+
+body.dark-mode .s7cfs64,
+body.dark-mode .s7cfs62,
+body.dark-mode .text-black,
+body.dark-mode p,
+body.dark-mode span {
+  color: #ffffff !important;
+}
+
+
+body.dark-mode .btn-danger {
+  background-color: #dc3545;
+  color: #ffffff !important;
+  border-color: #dc3545;
+}
+
+
+body.dark-mode img {
+  filter: brightness(0.95) contrast(1.05);
+}
+
+
+body.dark-mode .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  background-color: transparent !important;
+}
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}

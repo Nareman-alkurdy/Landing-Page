@@ -17,7 +17,8 @@
 
 
 <nav class="navbar navbar-expand-lg bg-body-white "> 
-  <div class="container"> <a class="navbar-brand" href="#"> 
+  <div class="container"> 
+    <a class="navbar-brand" href="#"> 
     <img src="assets\images\Rectangle 3.png" alt="Logo" width="130" height="90"> 
   </a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation"> 
     <span class="navbar-toggler-icon"></span> </button> 
@@ -45,6 +46,22 @@
 
                         </i>+2349067322844</a> 
                       </li> 
+
+                       <li class="nav-item dropdown">
+  <a id="languageToggle" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    EN
+  </a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#" onclick="setEnglish()">EN</a></li>
+    <li><a class="dropdown-item" href="#" onclick="setArabic()">AR</a></li>
+  </ul>
+</li>
+<li class="nav-item px-1 px-xl-2">
+<button onclick="toggleDarkMode()" class="btn btn-sm btn-outline-secondary">🌙</button>
+
+
+</li>
+                      
                     </ul> 
                   </div>
                  </div> 
@@ -245,8 +262,8 @@
                 </button>
               </div>
             </div>
-
-
+                
+           
 
 
           
@@ -299,8 +316,10 @@
                             <div class="card-title f4cfs28">Starter</div>
                             <p class="card-text">with all your customers via all<br /> conversation channels in one<br />
                                 central dashboard.</p>
-                            <h1 class="card-text">$2.80</h1>
-                            <h6 class="card-subtitle text-body-secondary ">Per month</h6>
+                         
+                             <h1 class="card-text price" data-monthly="2.80" data-yearly="30.00">$2.80</h1>
+                      
+                             <h6 class="card-subtitle text-body-secondary duration">Per month</h6>
                             <button class="f4cbtn my-4">Choose this Plan</button>
                             <div class="justify-content-center">
                                 <h6 class="py-1 f4ccheckline font-family-Inter"><i class="bi bi-check-lg"></i> 2GB SSD</h6>
@@ -327,8 +346,9 @@
                             <div class="card-title f4cfs28">Standard</div>
                             <p class="card-text">with all your customers via all<br /> conversation channels in one<br />
                                 central dashboard.</p>
-                            <h1 class="card-text">$4.20</h1>
-                            <h6 class="card-subtitle text-body-secondary ">Per month</h6>
+                                <h1 class="card-text price" data-monthly="4.20" data-yearly="40.00">$4.20</h1>
+                        
+                             <h6 class="card-subtitle text-body-secondary duration">Per month</h6>
                             <button class="f4cbtn my-4">Choose this Plan</button>
                             <h6 class="py-1 f4ccheckline font-family-Inter"><i class="bi bi-check-lg"></i> 2GB SSD</h6>
                             <h6 class="py-1 f4ccheckline font-family-Inter"><i class="bi bi-check-lg"></i> 10GB Bandwidth
@@ -350,7 +370,7 @@
                             <div class="card-title f4cfs28">Supreme</div>
                             <p class="card-text">with all your customers via all<br /> conversation channels in one<br />
                                 central dashboard.</p>
-                            <h1 class="card-text">$7.00</h1>
+                             <h1 class="card-text price" data-monthly="7.00" data-yearly="10.00">$7.00</h1>
                             <h6 class="card-subtitle text-body-secondary ">Per month</h6>
                             <button class="f4cbtn my-4">Choose this Plan</button>
                             <h6 class="py-1 f4ccheckline font-family-Inter"><i class="bi bi-check-lg"></i> 2GB SSD</h6>
@@ -578,6 +598,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    
+     <script src="script.js"></script>
 </body>
 </html>
